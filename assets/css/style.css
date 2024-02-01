@@ -1,0 +1,30 @@
+head{
+    background-color: blue;
+    padding: 10px;
+}
+body{
+    display: grid;
+    grid-template-rows: auto 1fr 15vh;
+    padding: 1.5625rem 1.25rem 2.1875rem 1.25rem;
+    font-family: var(--fonte-principal);
+}
+header{
+    background-color: rgb(87, 10, 10);
+    margin-left: 900px;
+    padding-bottom: 10%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: var(--branco);
+    gap: 12px;
+}
+footer{
+    padding: 10%;
+    margin-left: 900px;
+    background-color: chartreuse;
+}
+button{
+    align-items: center;
+}
