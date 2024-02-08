@@ -1,4 +1,5 @@
 body{
+    overflow: hidden;
     height: 100vh;
     background-color: black;   
     background-repeat: no-repeat;
@@ -16,23 +17,32 @@ body::after{
     z-index: -1;
 }
 header{
+    margin-top: 100px;
+    margin-left: 500px;
     height: 150px;
 }
 main{
-    flex-grow: 1;
+    margin-left: 800px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 10px;
     align-items: center;
-}
+    width: 1000px;
+    font-size: 25px;
+    font-family: "Italiana", sans-serif;}
 .conteudo-container{
-    color:black;
+    color:white;
+    justify-content: center;
+
 }
 .conteudo-container h1{
-    width: 230px;
+    width: 300px;
+    align-content: center;
 }
 .conteudo-container p{
+    align-content: center;
     width: 300px;
 }
 main h3{
@@ -66,13 +76,22 @@ footer{
     justify-content: flex-end;
     align-items: center;
 }
-footer h2{
-    font-size: 12px;
+button{
+    background-color:#6D5F5F;
     color:black;
-    text-shadow: 0.1em 0.1em 0.1em black;
+    border-radius: 0.5cm;
+    width: 300px;
 }
-footer h3{
-    font-weight: 10;
-    font-size: 15px;
-    color:black;
+.botao{
+    height: 50px;
+    font-family: "Italiana", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
 }
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
